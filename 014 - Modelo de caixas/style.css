@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* As caixas do box-model possuem uma estrutura, na qual a sua anatomia consiste em: 
+>content : represanta a parte do conteúdo da tag, por padrão toda caixa é composta por apenas content, sendo a única exceção o elemento body, pois já vem com margin de 8px.
+>width : largura da caixa 
+>height : altura da caixa ( a esse conjunto de propriedades é dado o nome de box size).
+>border : é a borda que fica em volta do contéudo, a qual pode ter espessura, cor e formato,
+>padding : da borda pra dentro, o padding funciona como preenchimento entre a borda e o contéudo.  
+>margin : da borda pra fora, o margin funciona como espaçamento entro a box e a tela, muito utilizado pra posicionar o conteúdo na tela.*/
+h1#teste {
+    width : 120px;
+    height :70px;
+    border: 4px solid black; 
+    /*o shorthand de border simplifica respectivamente : border-width ,border-style e border-color*/
+    padding : 10px ;
+    margin : 10px ;
+    font-size :32px;
+    text-align : center;
+
+}

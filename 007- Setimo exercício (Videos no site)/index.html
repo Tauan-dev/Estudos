@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos através de HTML</title>
+</head>
+<body>
+    <h1>Reprodução de videos nos sites</h1>
+    <p>
+        Apesar de videos poderem ser hospedados diretamente no site, podem gerar
+        um alto custo, além de não ser a melhor forma de ser reproduzido. Abaixo 
+        vamos reproduzir videos de um meio externo (youtube e vimeo, respectivamente).
+    </p>
+    <h2>Video do YouTube</h2>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/rA4eesTbNKE" 
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+        encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    <!--basicamente ao ir no compartilhar no youtube e utilizar incorporar, o proprio site da o codigo pronto.
+    É interessante ter um canal proprio no youtube, por questões de direito autoral-->
+    <h2>Video do Vimeo</h2>
+    <!--
+        O vimeo é a melhor opção caso seja necessário privatizar um video(Onde só assinantes tenham acesso por exemplo),
+        pra criação de sites de cursos seria a melhor opção, apesar de ter uma mensalidade teoricamente alta, para o ambito
+        profissional  é o serviço que melhor atende certas demandas
+    -->
+    <!--Da mesma forma que no youtube é só incorporar-->
+    <iframe src="https://player.vimeo.com/video/264340025?h=13594e234c" 
+        width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
+    </iframe>
+    
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+/*configurações globais*/
+body{
+    background-image: linear-gradient(to right, #F2D5BB,#e2a799);
+    /*a tag background-image:linear-gradient permite ser feito degrade no backgrounde do site*/
+}
+p{
+    text-align: justify;
+
+}
+main{
+    background-color: white;
+    width: 570px;
+    padding: 10px;
+    border-radius: 10px;
+    /* a tag border-radius: ; "alcochoa as bordas do conteiner no qual é inserido, deixando-as meio arredondadas*/
+    box-shadow: 5px 5px 5px #f28177b6; 
+    margin: auto;
+    /*centraliza no meio da tela, independentemente do tamanho*/
+}
+h1{
+    color:#1B3C59;
+}
+h2{
+    color: #B0BFB5;
+}

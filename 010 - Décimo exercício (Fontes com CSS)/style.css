@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;/*a variavel escrita dessa forma é conhecida como "safe combinations", onde o codigo vai buscar entre as 3 fontes,e a primeira que o navegador reconhecer é colocada no código*/  
+    
+    font-size:20px; /* Aumenta o tamanho da fonte, geralmente é utilizado px(pixels) como medida */
+
+    font-weight:normal; /* Aumenta o peso da fonte, deixando ela tanto mais fina, quanto mais forte(pode ser utilizado como variavel: ligther , normal , bold e bolder*/
+    font-style:italic; /*muda o estilo da fonte, nesse caso deixa em italico*/
+
+ 
+}
+
+h1{
+    font:normal,bolder,26px,serif;
+}
+
+p{
+    font-family: sans-serif; /*É permitido colocar fontes genericas, porém é o algoritmo  que escolhe qual vai ser, onde por exemplo podem ser utilizadas : serif , sans-serif(sem serifa) e  monospace */
+}

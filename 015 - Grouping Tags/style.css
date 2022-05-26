@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* A linguagem HTML tinha apenas duas tags de agrupamento, sendo elas respectivamente div e span.
+Com o surgumento do HTML 5, surgiram as tags semâticas de agrupamento, deixando as tags div e span com menos sentido que antes, porem não obsoletas. 
+> Header : Cria áreas relativas a cabeçalhos. seja ele o cabeçalho do site ou até mesmo a de uma seção ou artigo. Podem também conter menus de navegação.
+
+> Nav : Define uma área que possui links de navegação pela estrutura de páginas que vão compor o website.  Um <nav> pode estar dentro de um de um Header
+
+> Main : É um agrupador usado para delimitar o conteúdo principal do nosso site. Normalmente concentra as seções, artigos e conteúdos periféricos.
+
+> Section : Cria seções para sua página. Ela pode conter o conteúdo diretamente no seu corpo ou dividir os conteúdos em artigos com conteúdos específicos. 
+
+> Article : Um artigo é um elemento que pode ser lido de forma independente e dizem respeito a um memso assunto. Pode ser usado para delimitar um post de blog ou fórum, uma notícia, etc. 
+
+> Footer : Cria um rodapé para o site inteiro, seção ou artigo.é um conteúdo que pode conter informações sobre autoriado conteúdo, links adicionais, mapa do site, documentos relacionados.
+

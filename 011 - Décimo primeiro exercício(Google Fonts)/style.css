@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&display=swap');/*indo no google fonts e importando pro css, facilmente pode ser utilizado as fontes*/   
+
+body{
+    font-family: 'Allison', cursive;
+    font-size: 30px;
+}
+h1{
+    text-align: center;
+    /*a variavel text-align é utilizada pra alinhar o texto no qual está ligado*/
+    /*a variavel text-align tem outros parametros voltados a alinhamento, os quais são
+    > text-align: left   == alinha a esquerda
+    > text-align: right  == alinha a direita
+    > text-align: justify == justifica o texto */
+
+}  

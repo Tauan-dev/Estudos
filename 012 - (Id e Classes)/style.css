@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgba(100, 248, 241, 0.836),  rgba(34, 226, 217, 0.836));
+
+}
+h1#principal {
+    background-color: rgb(26, 97, 190);
+    color: white;
+    /* o id no Html e # no css, funciona como identificador, permitindo fazer modificação em uma parte especifica do site, sem afetar as outras */ 
+    /* > OBS : quando for declarar id no css com a #, tem que ser colada com a tag que vai ser modificada*/
+}
+
+.basico{
+    color: rgba(32, 216, 87, 0.842);
+    /* as classes (identificadas como class no html e . no CSS) diferente dos id, permitem modificar um grupo de tag, ao invés de 1. 
+    toda tag que tive class ="nome da classe" irá receber as estilizações do CSS*/ 
+}
+
+.intermediário{
+    color: rgb(216, 205, 44);
+}
+
+.avançado {
+    color: rgb(216, 44, 44);
+}

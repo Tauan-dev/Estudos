@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+.teste { 
+    background-color: lightgray; 
+    display: inline-block;
+    width: 200px;
+    height:200px;
+    margin-left: 10px;
+}
+
+
+.teste:hover{
+    background-color:red;
+}
+
+/*As pseudo classes no CSS, são palavras chaves adicionadas as declarações de um seletor(seja ele uma tag, como div, spam ou p, ou um classe como feito acima com .teste) após um sinal de dois pontos e especificam um estado especial de um elemento. Existem várias pseudo classes para estilo, as quais podemos citar: 
+
+:hover = Faz algum tipo de modificação especificada no css(assim como mudar a cor de background, por exemplo), assim que o mouse passa por cima do elemento.
+
+:active – quando ativamos o elemento. Por exemplo, quando clicamos em um link e não soltamos o botão do mouse. Nesse momento, estamos ativando a ação do elemento. Esse estado é ativado também quando navegamos pelos links pelo teclado utilizando o TAB. Este estado não há em todos os elementos.
+
+:visited – quando o link é visitado.
+
+:focus – quando um elemento recebe foco. Muito utilizado em campos de texto. Quando clicamos em cima um campo de texto para escrever, o elemento está ganhando foco.*/
+
+div>p{
+    display: none;
+}
+
+div:hover > p{
+    display:block;
+    background-color:white;
+    color:blue;
+}
+
+a{
+    color:blue;
+    text-decoration:none; /* text-decoration coloca ou retira o sublinhado, seja de links ou de algum texto*/
+}
+
+a:active  {
+    color:purple;
+}
+

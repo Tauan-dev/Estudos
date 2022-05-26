@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links</title>
+</head>
+    <body>
+        <h1>Agora vamos aprender como usar links externos</h1>
+            <p>Se você quiser ouvir algumas musicas boas indico a 
+                <a  href="http://www.youtube.com/watch?v=j65ut_coM4U" 
+                    target="_blank" rel="external">playlist popmusic 2000
+                </a> 
+                    <!-- onde o target <a> significa ancorar(ele associa ao texto um link
+                        de outro site , tanto que automaticamente ele pede a variavel href, onde é colocado o link
+                        funcionando como referencia a hipertexto-->  
+                    <!--a variavel target aponta pra onde o link vai apontar , onde _blank aponta para outra aba, porém
+                    ele suporta outros valores, tais como:
+                        _self = vai abrir o link na janela ou frame atual(padrão)
+                        _top = vai desfazer todos os frames e abrir o destino no navegador completo
+                        _parent = similar ao uso do _top em uma referência à janela mãe
+                        nome-do-frame =  casi esteja usando frames, indicar o nome da janela a abrir 
+                    -->
+                    <!--a variavel rel indica qual é a natureza do destino, e aceita vários valores,onde alguns deles são:
+                        next = indica que o link é para a próxima parte do documento atual
+                        prev = indica que o link é para a parte anterior do documento atual
+                        author = indica que é um link para o site do autor do artigo atual
+                        external indica que é um link para outro site qye não faz parte do site atual
+                        nofollow = indica que é um link para um site não ensossado, como um link pago por exemplo.
+                    -->
+        <h1>Usando links internos</h1>
+                <p>você pode acessar nossa segunda página 
+                    <a href="page002.html" target="_self" rel="next">
+                        através desse link
+                    </a>
+                    <!-- usando ctlr + space facilida a busca de páginas ou arquivos nas pastas-->
+                </p>
+            </p>
+        <h1>Links de download</h1>
+            <p>
+                Links disponiveis para o download de arquivos através do html  
+            </p>
+            <ul>
+                <li>
+                    <a 
+                        href="American Gods_Neil Gaiman.pdf" target="_blank" download="American Gods_Neil Gaiman.pdf" type="application/pdf">Baixar o livro em pdf
+                    </a>
+                    <!-- para direcionar o link para download, é usado de referência o arquivo em pdf, usando a variavel downlaod é disponibilizado 
+                    fazer o download dos arquivos (porém nesse caso como é em pdf, o link direciona para outra página, onde vai estar o arquivo 
+                    desejado)-->
+                </li>
+
+                <li>    
+                    <a 
+                        href="American Gods_Neil Gaiman.zip" download="American Gods_Neil Gaiman.zip" type="application/zip">Baixar o livro em zip
+                    </a>
+                    <!-- para direcionar o link para download, é usado de referência o arquivo em zip, usando a variavel downlaod é disponibilizado 
+                    fazer o download de arquivos-->
+                </li>
+            </ul>
+
+
+    </body>
+</html>
